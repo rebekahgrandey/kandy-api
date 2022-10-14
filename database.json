@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Ted Chobani",
+      "email": "tchobani1982@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "fullName": "Ronald Grey",
+      "email": "rg_mason@rakuten.co.jp",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Tracy Cornell",
+      "email": "butterfly23826@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Breanna Smith",
+      "email": "bbsmith1990@mtsu.edu",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Joseph Smartt",
+      "email": "josmartt_79@charter.net",
+      "isStaff": false
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": 4192013,
+      "payRate": 23,
+      "locationId": 2,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "startDate": 6222021,
+      "payRate": 18,
+      "locationId": 1,
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "startDate": 7272021,
+      "payRate": 19,
+      "locationId": 3,
+      "userId": 4
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "loyaltyNumber": 39275
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "loyaltyNumber": 39276
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "loyaltyNumber": 84618
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "loyaltyNumber": 96263
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "2544 Diane Way, Simi Valley, CA 93065",
+      "sqFt": 13000
+    },
+    {
+      "id": 2,
+      "address": "243 Mason St, Murfreesoboro, TN 37127",
+      "sqFt": 7650
+    },
+    {
+      "id": 3,
+      "address": "1912 Riverwood Drive, Sacramento, CA 95814",
+      "sqFt": 10560
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Snickers",
+      "productTypeId": 1,
+      "pricePerUnit": 1.98
+    },
+    {
+      "id": 2,
+      "name": "Nerds",
+      "productTypeId": 3,
+      "pricePerUnit": 1.29
+    },
+    {
+      "id": 3,
+      "name": "Big League Chew",
+      "productTypeId": 2,
+      "pricePerUnit": 1.49
+    },
+    {
+      "id": 4,
+      "name": "Reeses",
+      "productTypeId": 1,
+      "pricePerUnit": 2.29
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Chocolate"
+    },
+    {
+      "id": 2,
+      "type": "Chewing Gum"
+    },
+    {
+      "id": 3,
+      "type": "Sugar Candy"
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "locationId": 3,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "locationId": 2,
+      "productId": 3
+    },
+    {
+      "id": 3,
+      "locationId": 3,
+      "productId": 2
+    },
+    {
+      "id": 4,
+      "locationId": 1,
+      "productId": 2
+    },
+    {
+      "id": 5,
+      "locationId": 1,
+      "productId": 1
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "loyaltyNumber": 84618,
+      "productLocationId": 1,
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "loyaltyNumber": 84618,
+      "productLocationId": 3,
+      "quantity": 1
+    }
+  ]
+}
